@@ -23,7 +23,7 @@ To connect and use:
    from ciscoAPI import Cisco as cisco
    import yaml
    
-   #
+   #import configuration file
    with open('config.yml', 'r') as configFile:
      config = yaml.safe_load(configFile)
 
