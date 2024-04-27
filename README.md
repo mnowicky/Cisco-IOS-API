@@ -1,14 +1,14 @@
 # Cisco-IOS-API
-###An API for interacting with Cisco (IOS, NX-OS, IOS-XR) based devices. 
+### An API for interacting with Cisco (IOS, NX-OS, IOS-XR) based devices. 
 
 This API is currently under development to further normalize and optimize it's functions; as it was created to meet my own needs in working with ciso networks.
 
-####Files:
+#### Files:
  - ciscoAPI.py - The module containing the API's main class and the focus of this repo. 
  - config.yml - A basic config file to use with this api. Contains basic information for connecting, configuration details for specific tasks, as well as plaintext credentials for login. Under credentials, list out every possible usename and password combination that might be needed to login to any of the devices you will be working with. 
  - logger.py - A simple logger, used within many of the API's functions. You can replace this with your own logger, or use built-in logging if you like. 
 
-####General Usage:
+#### General Usage:
 This API is intended to be used to help automate configuration tasks for Cisco devices. Use it to create your own projects. Simplifies connecting to cisco devices and issuing configuration commands or retrieving specific information to be utilized in your own programs or functions. 
 
 To connect and use:
