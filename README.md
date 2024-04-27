@@ -5,7 +5,8 @@ This API is currently under development to further normalize and optimize it's f
 
 #### Files:
  - ciscoAPI.py - The module containing the API's main class and the focus of this repo. 
- - config.yml - A basic config file to use with this api. Contains basic information for connecting, configuration details for specific tasks, as well as plaintext credentials for login. Under credentials, list out every possible usename and password combination that might be needed to login to any of the devices you will be working with. 
+ - config.yml - A basic config file to use with this api. Contains:
+    -  basic information for connecting, configuration details for specific tasks, as well as plaintext credentials for login. Under credentials, list out every possible usename and password combination that might be needed to login to any of the devices you will be working with. 
  - logger.py - A simple logger, used within many of the API's functions. You can replace this with your own logger, or use built-in logging if you like. 
 
 #### General Usage:
