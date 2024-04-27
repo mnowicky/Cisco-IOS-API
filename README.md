@@ -4,7 +4,8 @@
 This API is currently under development to further normalize and optimize it's functions; as it was created to meet my own needs in working with ciso networks.
 
 #### Files:
- - ciscoAPI.py - The module containing the API's main class and the focus of this repo. 
+ - ciscoAPI.py - The module containing the API's main class and the focus of this repo.
+    - Each function includes expected argument types, as well as purpose and type information in each functions docstring.  
  - config.yml - A basic config file to use with this api. Contains:
     -  [connection] Basic information for connecting
     -  [configuration] Configuration details for specific tasks, modify/add to this as required for your own needs.
